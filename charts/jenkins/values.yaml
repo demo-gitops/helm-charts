@@ -90,22 +90,22 @@ buildconfigs:
     builder_image_tag: "latest"
   # Jenkins agents for running builds etc
   # default names, versions, repo and paths set on the template
-  - name: jenkins-agent-ansible
-  - name: jenkins-agent-arachni
+  #- name: jenkins-agent-ansible
+  #- name: jenkins-agent-arachni
   - name: jenkins-agent-argocd
-  - name: jenkins-agent-conftest
-  - name: jenkins-agent-erlang
-  - name: jenkins-agent-golang
-  - name: jenkins-agent-graalvm
+  #- name: jenkins-agent-conftest
+  #- name: jenkins-agent-erlang
+  #- name: jenkins-agent-golang
+  #- name: jenkins-agent-graalvm
   - name: jenkins-agent-gradle
-  - name: jenkins-agent-helm
-  - name: jenkins-agent-image-mgmt
+  #- name: jenkins-agent-helm
+  #- name: jenkins-agent-image-mgmt
   - name: jenkins-agent-mongodb
   - name: jenkins-agent-mvn
   - name: jenkins-agent-npm
-  - name: jenkins-agent-python
-  - name: jenkins-agent-ruby
-  - name: jenkins-agent-rust
+  #- name: jenkins-agent-python
+  #- name: jenkins-agent-ruby
+  #- name: jenkins-agent-rust
 
 ## This works with the Jenkins Configuration-as-Code plugin. You can put all sorts of declarative configuration
 ## into this `body` and Jenkins will load it on start, even when using ephemeral Jenkins.
