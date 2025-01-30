@@ -77,7 +77,7 @@ In the examples that follow we use the following helm chart repository. Add it t
 
 ```bash
 # add the redhat-cop repository
-helm repo add redhat-cop https://redhat-cop.github.io/helm-charts
+helm repo add redhat-cop https://demo-gitops.github.io/helm-charts
 ```
 
 There are four generic teams used in the examples:
@@ -85,7 +85,7 @@ There are four generic teams used in the examples:
 - `ops-sre` - this is the platform team. they operate at cluster scope and use the ArgoCD in the `openshift-gitops` namespace.
 - `xteam, yteam, zteam` - these are our stream aligned product teams. they operate at cluster or namespaced scope and use ArgoCD in their `<team>-ci-cd` namespace.
 
-There are many ways to create the team projects. `oc new-project` works well!. We can make use of the [bootstrap project chart](https://github.com/redhat-cop/helm-charts/tree/master/charts/bootstrap-project) in the redhat-cop that manages the role bindings and namespaces for our teams. In a normal setup the Groups would come from LDAP/OAuth providers and be provisioned on OpenShift already.
+There are many ways to create the team projects. `oc new-project` works well!. We can make use of the [bootstrap project chart](https://github.com/demo-gitops/helm-charts/tree/master/charts/bootstrap-project) in the redhat-cop that manages the role bindings and namespaces for our teams. In a normal setup the Groups would come from LDAP/OAuth providers and be provisioned on OpenShift already.
 
 Let's create the project configurations:
 
@@ -154,7 +154,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    repoURL: https://redhat-cop.github.io/helm-charts
+    repoURL: https://demo-gitops.github.io/helm-charts
     targetRevision: 1.0.1
     chart: bootstrap-project
     helm:

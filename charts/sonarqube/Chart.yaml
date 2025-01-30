@@ -3,7 +3,7 @@ name: sonarqube
 description: SonarQube is an open sourced code quality scanning tool
 version: 0.1.12
 appVersion: 9.9.1-community
-home: https://github.com/redhat-cop/helm-charts
+home: https://github.com/demo-gitops/helm-charts
 keywords:
 - coverage
 - security

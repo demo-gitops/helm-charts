@@ -35,7 +35,7 @@ No dependencies
 ## Sources
 Source:
 
-Source code: https://github.com/redhat-cop/helm-charts/tree/main/charts/tpl
+Source code: https://github.com/demo-gitops/helm-charts/tree/main/charts/tpl
 
 ## Values
 

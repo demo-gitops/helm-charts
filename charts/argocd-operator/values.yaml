@@ -85,7 +85,7 @@ argocd_cr:
       url: https://github.com/rht-labs/ubiquitous-journey.git
     - name: redhat-cop
       type: helm
-      url: https://redhat-cop.github.io/helm-charts
+      url: https://demo-gitops.github.io/helm-charts
 
   # configure your repo credential template
   # example for ref only

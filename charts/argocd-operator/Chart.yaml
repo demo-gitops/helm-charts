@@ -3,7 +3,7 @@ appVersion: v2.1.5
 description: A Helm chart for customising the deployment of the ArgoCD Operator ⚓️
 name: argocd-operator
 version: 1.2.1
-home: https://github.com/redhat-cop/helm-charts
+home: https://github.com/demo-gitops/helm-charts
 icon: https://cncf-branding.netlify.app/img/projects/argo/stacked/color/argo-stacked-color.png
 maintainers:
 - name: springdo

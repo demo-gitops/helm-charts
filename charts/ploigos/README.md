@@ -24,7 +24,7 @@ Once you have installed the platform you can use the `TsscPipeline CRD`
 
 Add the chart repo
 ```bash
-helm repo add redhat-cop https://redhat-cop.github.io/helm-charts
+helm repo add redhat-cop https://demo-gitops.github.io/helm-charts
 helm repo update
 ```
 

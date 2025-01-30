@@ -1,9 +1,9 @@
 # ⚓️ Red Hat Communities of Practice Helm Charts
 
-[![Install Test](https://github.com/redhat-cop/helm-charts/actions/workflows/install-test.yaml/badge.svg)](https://github.com/redhat-cop/helm-charts/actions/workflows/install-test.yaml)
-[![Lint Test](https://github.com/redhat-cop/helm-charts/actions/workflows/lint-test.yaml/badge.svg)](https://github.com/redhat-cop/helm-charts/actions/workflows/lint-test.yaml)
-[![Release Charts](https://github.com/redhat-cop/helm-charts/actions/workflows/release.yaml/badge.svg)](https://github.com/redhat-cop/helm-charts/actions/workflows/release.yaml)
-[![Scorecard supply-chain security](https://github.com/redhat-cop/helm-charts/actions/workflows/scorecard.yml/badge.svg)](https://github.com/redhat-cop/helm-charts/actions/workflows/scorecard.yml)
+[![Install Test](https://github.com/demo-gitops/helm-charts/actions/workflows/install-test.yaml/badge.svg)](https://github.com/demo-gitops/helm-charts/actions/workflows/install-test.yaml)
+[![Lint Test](https://github.com/demo-gitops/helm-charts/actions/workflows/lint-test.yaml/badge.svg)](https://github.com/demo-gitops/helm-charts/actions/workflows/lint-test.yaml)
+[![Release Charts](https://github.com/demo-gitops/helm-charts/actions/workflows/release.yaml/badge.svg)](https://github.com/demo-gitops/helm-charts/actions/workflows/release.yaml)
+[![Scorecard supply-chain security](https://github.com/demo-gitops/helm-charts/actions/workflows/scorecard.yml/badge.svg)](https://github.com/demo-gitops/helm-charts/actions/workflows/scorecard.yml)
 
 A collection of Helm Charts to that are not available in any upstream location or customised to the point it does not make sense to support up stream chart development.
 
@@ -15,7 +15,7 @@ Additional charts for managing an OpenShift cluster can be found in [redhat-cop/
 
 ## 🧰 Add this Helm Repo to your local 🧰
 ```
-helm repo add redhat-cop https://redhat-cop.github.io/helm-charts
+helm repo add redhat-cop https://demo-gitops.github.io/helm-charts
 ```
 
 ## 🏃‍♀️💨 How do I run a chart?

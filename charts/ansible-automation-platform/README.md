@@ -18,7 +18,7 @@ The above command creates objects with default naming convention and configurati
 To install the chart from repository:
 
 ```bash
-helm repo add redhat-cop https://redhat-cop.github.io/helm-charts
+helm repo add redhat-cop https://demo-gitops.github.io/helm-charts
 helm install ansible-automation-platform redhat-cop/ansible-automation-platform
 ```
 

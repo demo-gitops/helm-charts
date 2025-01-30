@@ -11,7 +11,7 @@ This chart helps you to create Gitea server on OpenShift without requiring eleva
 To install Gitea in a given namespace:
 
 ```bash
-helm upgrade --install --repo=https://redhat-cop.github.io/helm-charts gitea gitea --set db.password=S00perSekretP@ssw0rd --set hostname=gitea.apps.mycluster.example.com
+helm upgrade --install --repo=https://demo-gitops.github.io/helm-charts gitea gitea --set db.password=S00perSekretP@ssw0rd --set hostname=gitea.apps.mycluster.example.com
 ```
 
 **YOU MUST SPECIFY THE DB PASSWORD AND THE PUBLIC-FACING HOSTNAME**

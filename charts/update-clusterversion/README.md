@@ -38,7 +38,7 @@ It is best used with a full GitOps approach such as Argo CD does. For example, h
 ## Sources
 Source:
 
-Source code: https://github.com/redhat-cop/helm-charts
+Source code: https://github.com/demo-gitops/helm-charts
 
 ## Parameters
 

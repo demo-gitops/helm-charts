@@ -33,7 +33,7 @@ NOTE: This chart can also be used to automatically approve an InstallPlan
 ## Sources
 Source:
 
-Source code: https://github.com/redhat-cop/helm-charts
+Source code: https://github.com/demo-gitops/helm-charts
 
 ## Parameters
 

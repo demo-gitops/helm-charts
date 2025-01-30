@@ -28,7 +28,7 @@ This chart will create the objects: Namespace, Subscription, OperatorGroup and a
 ## Sources
 Source:
 
-Source code: https://github.com/redhat-cop/helm-charts
+Source code: https://github.com/demo-gitops/helm-charts
 
 ## Parameters
 

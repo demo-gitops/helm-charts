@@ -65,7 +65,7 @@ The following table lists the configurable parameters of the Jenkins chart and t
 
 ### Environment Variables
 
-There are additional environment variables you can set to customize your Jenkins based on your needs. You can update these values on your [values](https://github.com/redhat-cop/helm-charts/blob/master/charts/jenkins/values.yaml#L23) file.
+There are additional environment variables you can set to customize your Jenkins based on your needs. You can update these values on your [values](https://github.com/demo-gitops/helm-charts/blob/master/charts/jenkins/values.yaml#L23) file.
 | Variable                                         | Description                                                                 | Default                                              |
 | ------------------------------------------------ | --------------------------------------------------------------------------- | ---------------------------------------------------- |
 | `JVM_ARCH`                                       | Java VM architecture                                                        | `x86_64`                                             |
@@ -105,11 +105,11 @@ Following agents are created by default when you install the chart. They are des
 - jenkins-agent-ruby
 - jenkins-agent-rust
 
-You can remove the ones you do not need by deleting the related imagestream and buildconfig blocks from [values](https://github.com/redhat-cop/helm-charts/blob/master/charts/jenkins/values.yaml#L80) file.
+You can remove the ones you do not need by deleting the related imagestream and buildconfig blocks from [values](https://github.com/demo-gitops/helm-charts/blob/master/charts/jenkins/values.yaml#L80) file.
 
 ### Persistence
 
-If you want to set your Jenkins as ephemeral, you should either remove the persistence [block](https://github.com/redhat-cop/helm-charts/blob/master/charts/jenkins/values.yaml#L55) from your values file or set persistent value as below during the installation:
+If you want to set your Jenkins as ephemeral, you should either remove the persistence [block](https://github.com/demo-gitops/helm-charts/blob/master/charts/jenkins/values.yaml#L55) from your values file or set persistent value as below during the installation:
 
 ```bash
 helm template --set persistence='' -f jenkins/values.yaml jenkins | oc apply -f-

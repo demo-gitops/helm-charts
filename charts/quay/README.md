@@ -4,7 +4,7 @@ Quay is a powerful container registry platform with many features and components
 
 ## Prereqs
 
-Requires Quay Operator. You can use [Operator Installer Helm Chart](https://github.com/redhat-cop/helm-charts/tree/main/charts/operators-installer) to deploy it.
+Requires Quay Operator. You can use [Operator Installer Helm Chart](https://github.com/demo-gitops/helm-charts/tree/main/charts/operators-installer) to deploy it.
 
 Example values:
 
@@ -23,7 +23,7 @@ operators:
 Add the redhat-cop helm chart repo:
 
 ```bash
-helm repo add redhat-cop https://redhat-cop.github.io/helm-charts
+helm repo add redhat-cop https://demo-gitops.github.io/helm-charts
 helm repo update
 ```
 Deploy the helm chart:
