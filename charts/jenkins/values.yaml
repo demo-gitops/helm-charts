@@ -98,8 +98,8 @@ buildconfigs:
   #- name: jenkins-agent-golang
   #- name: jenkins-agent-graalvm
   - name: jenkins-agent-gradle
-  #- name: jenkins-agent-helm
-  #- name: jenkins-agent-image-mgmt
+  - name: jenkins-agent-helm
+  - name: jenkins-agent-image-mgmt
   - name: jenkins-agent-mongodb
   - name: jenkins-agent-mvn
   - name: jenkins-agent-npm
