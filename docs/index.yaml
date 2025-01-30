@@ -3,7 +3,7 @@ entries:
   bootstrap-project:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-01-30T20:13:21.0063433+02:00"
+    created: "2025-01-30T21:51:21.5179457+02:00"
     description: "A Helm chart for deploying and managing Openshift projects \U0001F986"
     digest: e4d1fb4832a123ae6c4257f0d81023c1f2d2c06d99af2b851ee71695332bcb06
     home: https://github.com/demo-gitops/helm-charts
@@ -49,5 +49,23 @@ entries:
     type: application
     urls:
     - https://demo-gitops.github.io/helm-charts/operatorhub-0.0.10.tgz
-    version: 0.0.10    
-generated: "2025-01-30T20:13:21.0057886+02:00"
+    version: 0.0.10
+  sonatype-nexus:
+  - apiVersion: v2
+    appVersion: 3.43.0
+    created: "2025-01-30T21:51:21.5707933+02:00"
+    description: Sonatype Nexus is an open source repository manager
+    digest: 3e66e17443a853530e666adc2ce2b5509e4bfc93ade440e49746bdbfe010def7
+    home: https://github.com/demo-gitops/helm-charts
+    icon: https://help.sonatype.com/docs/files/331022/34537964/3/1564671303641/NexusRepo_Icon.png
+    maintainers:
+    - name: eformat
+    - name: ckavili
+    - name: springdo
+    name: sonatype-nexus
+    sources:
+    - https://github.com/sonatype/nexus-public
+    urls:
+    - https://demo-gitops.github.io/helm-charts/sonatype-nexus-1.1.11.tgz
+    version: 1.1.11
+generated: "2025-01-30T21:51:21.5006311+02:00"
