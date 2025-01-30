@@ -3,7 +3,7 @@ entries:
   bootstrap-project:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-01-30T20:04:58.7613444+02:00"
+    created: "2025-01-30T20:13:21.0063433+02:00"
     description: "A Helm chart for deploying and managing Openshift projects \U0001F986"
     digest: e4d1fb4832a123ae6c4257f0d81023c1f2d2c06d99af2b851ee71695332bcb06
     home: https://github.com/demo-gitops/helm-charts
@@ -16,4 +16,38 @@ entries:
     urls:
     - https://redhat-cop.github.io/helm-charts/bootstrap-project-1.0.1.tgz
     version: 1.0.1
-generated: "2025-01-30T20:04:58.7608302+02:00"
+  gitops-operator:
+  - apiVersion: v2
+    appVersion: v2.10.5
+    created: "2025-01-30T03:00:53.0137087+02:00"
+    description: "A Helm chart for customising the deployment of the Red Hat GitOps
+      Operator \U0001F52B"
+    digest: 2bda222f3c05aee7f0189c9bc900a96b0eda8a470675f53ba681d9cc8ebf7538
+    home: https://github.com/demo-gitops/helm-charts
+    icon: https://raw.githubusercontent.com/eformat/openshift-gitops/main/rh-gitops.png
+    maintainers:
+    - name: eformat
+    - name: springdo
+    name: gitops-operator
+    urls:
+    - https://demo-gitops.github.io/helm-charts/gitops-operator-0.10.5.tgz
+    version: 0.10.5
+  operatorhub:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-30T03:00:53.0268133+02:00"
+    description: A Helm chart to create OperatorHub subscriptions
+    digest: 30a5f1bde64ea1c66d9052640af1cbdbf32690518f238ecd0c0d1709392f70f4
+    home: https://github.com/demo-gitops/helm-charts
+    icon: https://avatars3.githubusercontent.com/u/38202270?s=280&v=4
+    maintainers:
+    - name: tylerauerbeck
+    - name: springdo
+    - name: ckavili
+    - name: mabulgu
+    name: operatorhub
+    type: application
+    urls:
+    - https://demo-gitops.github.io/helm-charts/operatorhub-0.0.10.tgz
+    version: 0.0.10    
+generated: "2025-01-30T20:13:21.0057886+02:00"
