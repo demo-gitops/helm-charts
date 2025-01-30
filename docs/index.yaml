@@ -14,7 +14,7 @@ entries:
     - name: eformat
     name: bootstrap-project
     urls:
-    - https://redhat-cop.github.io/helm-charts/bootstrap-project-1.0.1.tgz
+    - https://demo-gitops.github.io/helm-charts/bootstrap-project-1.0.1.tgz
     version: 1.0.1
   gitops-operator:
   - apiVersion: v2
