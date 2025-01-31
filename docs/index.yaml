@@ -3,7 +3,7 @@ entries:
   argocd-operator:
   - apiVersion: v2
     appVersion: v2.1.5
-    created: "2025-01-31T23:57:06.0045942+02:00"
+    created: "2025-02-01T01:07:24.2695243+02:00"
     description: A Helm chart for customising the deployment of the ArgoCD Operator
       ⚓️
     digest: b50ab69f51a3de8c5d23d549681f795634a62b30df748a9e788ee305bcba3285
@@ -20,7 +20,7 @@ entries:
   bootstrap-project:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-01-31T23:57:06.0226184+02:00"
+    created: "2025-02-01T01:07:24.2760303+02:00"
     description: "A Helm chart for deploying and managing Openshift projects \U0001F986"
     digest: e4d1fb4832a123ae6c4257f0d81023c1f2d2c06d99af2b851ee71695332bcb06
     home: https://github.com/demo-gitops/helm-charts
@@ -36,7 +36,7 @@ entries:
   gitops-operator:
   - apiVersion: v2
     appVersion: v2.10.5
-    created: "2025-01-31T23:57:06.028234+02:00"
+    created: "2025-02-01T01:07:24.299888+02:00"
     description: "A Helm chart for customising the deployment of the Red Hat GitOps
       Operator \U0001F52B"
     digest: e3b5e8566824e583331360b7c66aa79507103fda607dbe8ef403224f1109d670
@@ -67,10 +67,26 @@ entries:
     urls:
     - https://demo-gitops.github.io/helm-charts/operatorhub-0.0.10.tgz
     version: 0.0.10
+  pact-broker:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2025-02-01T01:07:24.3166648+02:00"
+    description: "A Helm chart for deploying Pact Broker on OpenShift \U0001F517"
+    digest: 765b2ad0505bdcc488c91a45a413d55b971cde73a4bc5ecd05598d068b6a922a
+    home: https://github.com/demo-gitops/helm-charts
+    icon: https://img.stackshare.io/service/11305/pact.png
+    maintainers:
+    - name: mvmaestri
+    - name: gsampaio
+    - name: springdo
+    name: pact-broker
+    urls:
+    - https://demo-gitops.github.io/helm-charts/pact-broker-0.0.9.tgz
+    version: 0.0.9
   sonatype-nexus:
   - apiVersion: v2
     appVersion: 3.43.0
-    created: "2025-01-31T23:57:06.0730131+02:00"
+    created: "2025-02-01T01:07:24.332261+02:00"
     description: Sonatype Nexus is an open source repository manager
     digest: 3e66e17443a853530e666adc2ce2b5509e4bfc93ade440e49746bdbfe010def7
     home: https://github.com/demo-gitops/helm-charts
@@ -85,4 +101,4 @@ entries:
     urls:
     - https://demo-gitops.github.io/helm-charts/sonatype-nexus-1.1.11.tgz
     version: 1.1.11
-generated: "2025-01-31T23:57:05.9869291+02:00"
+generated: "2025-02-01T01:07:24.2565558+02:00"
