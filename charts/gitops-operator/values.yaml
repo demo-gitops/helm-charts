@@ -63,8 +63,8 @@ argocd_cr:
 
   initialRepositories: |
     - name: ubiquitous-journey
-      url: https://github.com/rht-labs/ubiquitous-journey.git
-    - name: redhat-cop
+      url: https://github.com/demo-gitops/ubiquitous-journey.git
+    - name: demo-gitops
       type: helm
       url: https://demo-gitops.github.io/helm-charts
 
