@@ -3,7 +3,7 @@ entries:
   bootstrap-project:
   - apiVersion: v2
     appVersion: v0.0.1
-    created: "2025-01-30T21:51:21.5179457+02:00"
+    created: "2025-01-31T14:48:08.113276+02:00"
     description: "A Helm chart for deploying and managing Openshift projects \U0001F986"
     digest: e4d1fb4832a123ae6c4257f0d81023c1f2d2c06d99af2b851ee71695332bcb06
     home: https://github.com/demo-gitops/helm-charts
@@ -19,10 +19,10 @@ entries:
   gitops-operator:
   - apiVersion: v2
     appVersion: v2.10.5
-    created: "2025-01-30T03:00:53.0137087+02:00"
+    created: "2025-01-31T14:48:08.1180355+02:00"
     description: "A Helm chart for customising the deployment of the Red Hat GitOps
       Operator \U0001F52B"
-    digest: 2bda222f3c05aee7f0189c9bc900a96b0eda8a470675f53ba681d9cc8ebf7538
+    digest: 4f0be0efe92139db2aa495db9f0f80fe46df28a39160331bcf2308daa0391bd0
     home: https://github.com/demo-gitops/helm-charts
     icon: https://raw.githubusercontent.com/eformat/openshift-gitops/main/rh-gitops.png
     maintainers:
@@ -53,7 +53,7 @@ entries:
   sonatype-nexus:
   - apiVersion: v2
     appVersion: 3.43.0
-    created: "2025-01-30T21:51:21.5707933+02:00"
+    created: "2025-01-31T14:48:08.1484212+02:00"
     description: Sonatype Nexus is an open source repository manager
     digest: 3e66e17443a853530e666adc2ce2b5509e4bfc93ade440e49746bdbfe010def7
     home: https://github.com/demo-gitops/helm-charts
@@ -68,4 +68,4 @@ entries:
     urls:
     - https://demo-gitops.github.io/helm-charts/sonatype-nexus-1.1.11.tgz
     version: 1.1.11
-generated: "2025-01-30T21:51:21.5006311+02:00"
+generated: "2025-01-31T14:48:08.0972292+02:00"
